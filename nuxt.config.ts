@@ -5,5 +5,7 @@ export default defineNuxtConfig({
     buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
   },
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss']
+
 })
